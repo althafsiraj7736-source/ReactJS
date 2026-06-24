@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.card {
+  background-color: rgb(70, 10, 20);
+  border-radius:  10px;
+  color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+}
+.navbar {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 5px;
+}
