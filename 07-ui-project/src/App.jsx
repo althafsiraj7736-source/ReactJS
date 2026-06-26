@@ -8,7 +8,7 @@ const App = () => {
       img: 'https://plus.unsplash.com/premium_photo-1661769159995-f3af0089875f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29ya2luZyUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D',
       color:'purple',
       intro: '',
-      tag: 'Satisfied'
+      tag: 'Statisfied'
     }, {
       img: 'https://plus.unsplash.com/premium_photo-1661594430156-6d5973b67131?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fHdvcmtpbmclMjBwcm9mZXNzaW9uYWx8ZW58MHx8MHx8fDA%3D',
       color: 'green',
