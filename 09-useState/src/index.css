@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg text-white font-semibold m-3 transition-all duration-300 hover:scale-105;
+  }
+
+  .btn-increase {
+    @apply bg-gray-700 hover:bg-gray-800;
+  }
+
+  .btn-decrease {
+    @apply bg-blue-500 hover:bg-blue-600;
+  }
+  .container {
+    @apply px-5 py-3 h-screen max-w-full;
+  }
+  .counter {
+    @apply text-[100px] font-bold text-center mb-6  text-white bg-gray-700 py-20 px-30 rounded-lg  w-fit;
+  }
+}

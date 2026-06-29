@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+  .app-container {
+    @apply w-full h-screen flex flex-col items-center justify-center bg-slate-900;
+  }
+
+  .user-card {
+    @apply bg-white rounded-xl shadow-xl p-8 text-center;
+  }
+
+  .user-title {
+    @apply text-3xl font-bold text-slate-800 mb-6;
+  }
+
+  .btn {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105;
+  }
+}

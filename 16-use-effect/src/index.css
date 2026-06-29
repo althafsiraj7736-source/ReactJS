@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@layer components {
+  .btn-glass {
+    @apply px-8 py-3
+           bg-white/20
+           backdrop-blur-md
+           border
+           border-white/30
+           rounded-xl
+           text-white
+           transition-all
+           duration-300
+           hover:bg-white/30
+           hover:scale-105
+           active:scale-95
+           cursor-pointer
+           margin: 7px;
+  }
+}
